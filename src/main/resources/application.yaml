@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: core
+      uri: mongodb://172.17.0.1:27017
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
