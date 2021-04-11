@@ -5,8 +5,7 @@ import lombok.ToString;
 
 @Data
 @ToString
-public class IotConfigRequest {
-    private String type = "";
-    private String function = "";
-    private IotRequestParam<? extends IotParamChild> para;
+public abstract class IotConfigRequest {
+    protected String type = "";
+    protected String function = "";
 }
